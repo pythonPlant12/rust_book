@@ -1,6 +1,6 @@
 fn main() {
-    // String literals like "hello, world" are immutable, and their values are hardcoded into the program.
-    // In ordfer to have a mutable string, we need to use the String type.
+    // String literals like "hello" are immutable, and their values are hardcoded into the program.
+    // In order to have a mutable string, we need to use the String type.
     let mut s: String = String::from("hello");
     s.push_str(", world!");
     println!("{s}");
