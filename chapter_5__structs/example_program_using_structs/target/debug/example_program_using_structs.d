@@ -1,0 +1,1 @@
+/Users/nikitalutsai/Programming/study/rust/rust_book/chapter_5__structs/example_program_using_structs/target/debug/example_program_using_structs: /Users/nikitalutsai/Programming/study/rust/rust_book/chapter_5__structs/example_program_using_structs/src/main.rs
