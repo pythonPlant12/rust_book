@@ -17,6 +17,7 @@ fn main() {
     );
 
     // Now is okay, but it's not clear what rect1 is. Let's create a rectangle with struct
+    #[derive(Debug)]
     struct Rectangle {
         width: i32,
         height: i32,
@@ -32,6 +33,25 @@ fn main() {
     fn area_struct(rectangle: &Rectangle) -> i32 {
         rectangle.width * rectangle.height
     }
+    // We can try to print the struct as we always do but this will give us an error,
+    // As the struct doesn't implement the Display trait
+    // println!("rect2 is {}", rect2);
+
+    // We can try printing it using special syntax :? which will print the struct with output format called "Debug"
+    // The Debug trait enables us to print our struct in a way thtat is useful for developer so we can see its value whil we're debugging our code
+    println!("rect2 is {:?}", rect2);
+    // We still will find an error if we don't include the #[derive(Debug)] annotation before the struct definition
+    // After including it, we can print the struct using the :? syntax and the output will be like this:
+    // rect2 is Rectangle { width: 30, height: 50 }.
+    //? You can also use :#? which will print the struct in a more programmer-friendly way
+    println!("rect2 is {:#?}", rect2);
+
+    //? Another way to print out a value using the Debug format is to use dbg! macro
+    // Which takes ownership of an expression (as opposed to p[rintln! which takes a reference),
+    // And then returns the ownership
+    // It will also print the value of the expression along with the file and line number where the dbg! was called
+    // As we don't want to take the ownership and we just want to print the value, we can use & to take a reference to the value
+    dbg!(&rect2);
 }
 
 fn area(width: i32, height: i32) -> i32 {
