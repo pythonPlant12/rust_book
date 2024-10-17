@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/chapter_4/ownership/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_4/references_borrowing/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_4/slice_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_2/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_3/control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_3/loops/target" />
@@ -16,6 +17,7 @@
       <excludeFolder url="file://$MODULE_DIR$/chapter_4/ownership/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_4/references_borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_4/slice_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
