@@ -125,7 +125,7 @@ fn main() {
     let m = Message::Write(String::from("hello"));
     m.call();
     // The body of the method would use self to get the value that we called the method on.
-    // In this example, we've createcd a variable m that has the value Message::Write(String::from("hello"));
+    // In this example, we've created a variable m that has the value Message::Write(String::from("hello"));
     // and that is what self will be in the body of the call method when m.call() runs.
 
     // Let's take another example of std library Option<T> enum
@@ -144,11 +144,11 @@ fn main() {
     // We'll cover generics in Chapter 10. The <T> type inherits the type of the value that will be held by the Some variant of the Option enum
     let some_number = Some(5);
     let some_string = Some("String");
-    let absent_number = None; //This will give as an error as None variant is not of type i32
+    // let absent_number = None; //This will give as an error as None variant is not of type i32
 
     // This code will not compile
     let x: i8 = 5;
-    let y: std::option::Option<i8> = Some(5); // Some(5) is not of type Option<i8> rather std::option::Option<i8>
+    // let y: Option<i8> = Some(5); // Some(5) is not of type Option<i8> rather std::option::Option<i8>
     // Option<T> and T (i8) are different types, so Rust won't compile next code
     // let y: Option<i8> = Some(5); // This will compile
     // Neither this will compile
@@ -156,7 +156,4 @@ fn main() {
 
     // With Option<T> we avoid to use null values, and we'll must handle the case when the value is null (None)
     // So everywhere where the value is not Option<T> you can be 100% sure that the value is not null
-
-
 }
-
