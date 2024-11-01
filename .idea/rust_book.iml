@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_2/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_3/control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_3/loops/target" />
@@ -26,6 +27,7 @@
       <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_2__game_practise/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
