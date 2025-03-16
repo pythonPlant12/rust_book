@@ -45,7 +45,7 @@ fn main() {
     // You can implement contidion on while loop, if the condition is not true, the loop will not run
     let mut number = 3;
     while number <= 10 {
-       println!("{}!", number);
+       println!("{}", number);
          number += 1;
     }
 
