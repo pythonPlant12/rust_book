@@ -1,1 +1,0 @@
-/Users/nikitalutsai/Programming/study/rust/rust_book/chapter_4/references_borrowing/target/debug/references_borrowing: /Users/nikitalutsai/Programming/study/rust/rust_book/chapter_4/references_borrowing/src/main.rs

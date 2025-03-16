@@ -1,1 +1,0 @@
-/Users/nikitalutsai/Programming/study/rust/rust_book/chapter_5__structs/defining_instantiating_structs/target/debug/defining_instantiating_structs: /Users/nikitalutsai/Programming/study/rust/rust_book/chapter_5__structs/defining_instantiating_structs/src/main.rs

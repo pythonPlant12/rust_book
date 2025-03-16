@@ -1,1 +1,0 @@
-/Users/nikitalutsai/Programming/study/rust/rust_book/chapter_6__enums__pattern_matching/defining_enum/target/debug/defining_enum: /Users/nikitalutsai/Programming/study/rust/rust_book/chapter_6__enums__pattern_matching/defining_enum/src/main.rs

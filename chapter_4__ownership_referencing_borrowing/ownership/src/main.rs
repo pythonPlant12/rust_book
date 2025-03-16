@@ -43,7 +43,7 @@ fn main() {
     // RETURNING VALUES AND SCOPE
     let s1: String = gives_ownership(); // gives_ownership moves its return value into s1
     let s2: String = String::from("hello"); // s2 comes into scope
-    let s3: String = takes_and_gives_back(s2); // s2 is moved into takes_and_gives_back, which also moves its return value into s3
+    let s3: String = takes_and_gives_back(s2); // s2 is moved into takes_and_gives_back, which also moves its return value into s3, so in this ase s2 should be invalid after calling this function
     println!("{s3}");
 
     // We can also return multiple values from a function by returning a tuple.

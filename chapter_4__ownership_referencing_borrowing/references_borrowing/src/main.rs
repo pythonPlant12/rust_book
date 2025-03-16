@@ -45,7 +45,7 @@ fn main() {
     // that references a location in memory that may havbe been given to someone else, by freeing some memory while preserving a pointer to that memory.
     // In Rust, the compiler guarantees that references will never be dangling references: if you have a reference to some data, the compiler will ensure that the data will not go out of scope before the reference to the data does.
     // The following code will not compile
-    let reference_to_nothing = dangle();
+    // let reference_to_nothing = dangle();
 
 
 }
@@ -60,7 +60,7 @@ fn change_s1(string_pointer: &mut String) {
 }
 
 // Dangle reference in a function
-fn dangle() -> &String {
-    let s: String = String::from("hello");
-    &s
-}
+// fn dangle() -> &String {
+    // let s: String = String::from("hello");
+    // &s
+// }
