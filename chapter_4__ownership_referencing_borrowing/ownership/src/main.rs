@@ -1,5 +1,5 @@
 fn main() {
-    // String literals like "hello" are immutable, and their values are hardcoded into the program.
+    // String literals(str) like "hello" are immutable, and their values are hardcoded into the program.
     // In order to have a mutable string, we need to use the String type.
     let mut s: String = String::from("hello");
     s.push_str(", world!");
@@ -19,11 +19,18 @@ fn main() {
     // This only happens with data stored in the heap,
     // not with data stored in the stack as the memory is allocated on compile time and cannot change.
     // let s2 = s1;
+    // However, the st1 and st2 is possible as their values are stored in the stack memory.
+    let st1 = "hi";
+    let st2 = st1;
+    // Here you can see that the pointer is pointing at the same memory allocation as this is stored in the heap and is pointing to the same memory.
+    println!("{:?}", st2.as_ptr());
+    println!("{:?}", st1.as_ptr());
 
     // Cloning is an expensive operation as you copy all the data in the heap to .
+    // Here as you can see, the pointer is pointing to another memory allocation as we cloned the variable
     let s2 = s1.clone();
-    println!("s2: {s2}");
-    println!("s1: {s1}");
+    println!("s2: {:?}", s2.as_ptr());
+    println!("s1: {:?}", s1.as_ptr());
 
     println!("-----------------------------");
 
@@ -43,7 +50,7 @@ fn main() {
     // RETURNING VALUES AND SCOPE
     let s1: String = gives_ownership(); // gives_ownership moves its return value into s1
     let s2: String = String::from("hello"); // s2 comes into scope
-    let s3: String = takes_and_gives_back(s2); // s2 is moved into takes_and_gives_back, which also moves its return value into s3, so in this ase s2 should be invalid after calling this function
+    let s3: String = takes_and_gives_back(s2); // s2 is moved into takes_and_gives_back, which also moves its return value into s3, so in this case s2 should be invalid after calling this function
     println!("{s3}");
 
     // We can also return multiple values from a function by returning a tuple.

@@ -3,20 +3,74 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/chapter_2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_3/control_flow/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_3/loops/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_3/variables/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_4/ownership/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_4/references_borrowing/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_4/slice_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_2__game_practise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_2__game_practise/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_2__game_practise/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_2__game_practise/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_2__game_practise/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_2__game_practise/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_2__game_practise/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_3/control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_3/loops/target" />
@@ -24,6 +78,50 @@
       <excludeFolder url="file://$MODULE_DIR$/chapter_4/ownership/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_4/references_borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_4/slice_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_2__game_practise/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/method_syntax/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_6__enums__pattern_matching/consice_control_flow_if_let/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_7__packages_crates_modules/packages_and_crates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_2__game_practise/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_4__ownership_referencing_borrowing/slice_type/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/defining_instantiating_structs/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_5__structs/example_program_using_structs/target" />

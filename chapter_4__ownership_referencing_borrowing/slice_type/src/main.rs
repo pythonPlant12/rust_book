@@ -1,7 +1,8 @@
 fn main() {
-    // let mut s = String::from("hello world");
-    // let index = first_word(&s);
-    // s.clear();
+    let mut s = String::from("hello world");
+    let index = first_word(&s);
+    println!("First word {}", index);
+    s.clear();
     // The problem here that index will be 5 even we cleared the s as we called first_word function before
     // clearing s string
     // println!("Len of space or string: {}", index);
@@ -22,16 +23,17 @@ fn main() {
     let s = "Hello, world!"; // Here the type of s is &str and is immutable as it is a string slice and not String
     // in this case if we'd call the fn first_word we would type the parameter as &str instead of &String
 }
-// fn first_word(s: &String) -> usize {
-//     let bytes = s.as_bytes();
-//
-//     for (i, &item) in bytes.iter().enumerate() {
-//         if item == b' ' {
-//             return i;
-//         }
-//     }
-//     s.len()
-// }
+fn first_word(s: &String) -> usize {
+    let bytes = s.as_bytes();
+    println!("b{:?}", bytes);
+
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return i;
+        }
+    }
+    s.len()
+}
 //
 // fn first_word2(s: &String) -> &str {
 //     let bytes = s.as_bytes();

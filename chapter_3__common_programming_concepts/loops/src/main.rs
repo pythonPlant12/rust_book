@@ -67,7 +67,7 @@ fn main() {
 
     // Another way to use Range from standart library, it will start with number and end right
     // before the end number, rev() is to reverse
-    for number in (1..4).rev() {
+    for number in 1..4 {
         println!("From Range: {}!", number);
     }
 

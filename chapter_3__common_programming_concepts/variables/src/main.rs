@@ -1,5 +1,5 @@
 fn main() {
-    let printed_value = printing_value();
+    let printed_value: u8 = printing_value();
     println!("{}", printing_value());
 }
 
