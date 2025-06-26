@@ -1,4 +1,15 @@
+// pub mod garden;
+pub mod garden;
+use crate::garden::vegetables::test as test_vegetables;
+use crate::garden::vegetables1::test as test_vegetables1;
+use crate::garden::test as garden_test;
+
 fn main() {
+    garden_test();
+    test_vegetables();
+    test_vegetables1();
+    // vegetables::test();
+    // vegetables1::test();
     // Modules and another parts of module system, namely paths.
     // The 'use' keyword that brings a path into scope; and the 'pub' keyword to make items public.
     // We'll also descuss the 'as' keyword, external packages, and the 'glob' operator.

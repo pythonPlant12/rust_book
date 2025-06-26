@@ -66,4 +66,18 @@ fn main() {
     // Take into consideration that we can also define &str instead of String,
     // but in this case we need to provide lifetimes, this is something we will see in Chapter 10
     // But normally we want instances to own it's data
+    #[derive(Debug)]
+    struct Prueba1 {
+        mail: String,
+    }
+    let prueba1_instance = Prueba1 {
+        mail: String::from("prueba1"),
+    };
+    let prueba1_instance2 = Prueba1 {
+       prueba1_instance
+    };
+    dbg!(prueba1_instance);
+    dbg!(prueba1_instance2);
+
 }
+

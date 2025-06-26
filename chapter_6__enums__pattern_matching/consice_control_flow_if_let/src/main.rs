@@ -1,15 +1,25 @@
 fn main() {
     // If let syntax is useful if you want to handle values that match only one or some of the patterns.
     let config_max: Option<u8> = Some(12u8);
+    // match config_max {
+    //     Some(max) => println!("Max value is: {max}"),
+    //     _ => ()
+    // }
     match config_max {
-        Some(max) => println!("Max value is: {max}"),
-        _ => ()
-    }
+        Some(value) => println!("Yes {value}"),
+        _ => println!("No")
+    };
 
 
     // With if let syntax, you can write the above code in a more concise way and not cover all the cases.
+    // We should do this in order to bind the value from the if statement
     if let Some(max) = config_max {
-        println!("Max value is: {max}");
+        println!("Max value is: {max}. Max is binded value from the if statement");
+    }
+
+    // In case we don't need to bind the value we can do something like this
+    if config_max == Some(12u8) {
+        println!("Without binding the value from the if statement")
     }
 
     #[derive(Debug)]
