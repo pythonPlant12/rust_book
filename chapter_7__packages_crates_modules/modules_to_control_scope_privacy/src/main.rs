@@ -8,7 +8,9 @@ fn main() {
     garden_test();
     test_vegetables();
     test_vegetables1();
-    // vegetables::test();
+    garden::vegetables::test(); // This is valid too
+    garden::vegetables1::test(); // Valid too
+    garden::test(); // Valid too
     // vegetables1::test();
     // Modules and another parts of module system, namely paths.
     // The 'use' keyword that brings a path into scope; and the 'pub' keyword to make items public.
