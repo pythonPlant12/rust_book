@@ -1,3 +1,5 @@
+use std::fmt::Display;
+
 pub mod structs_module;
 
 fn main() {
@@ -22,7 +24,7 @@ fn main() {
     let string1 = String::from("abcd");
     let string2 = "xyz";
 
-    let result = longest(string1.as_str(), string2);
+    // let result = longest(string1.as_str(), string2);
     let string_from_main_scope = String::from("main scope");
     // let result1;
     // {
@@ -62,9 +64,9 @@ fn main() {
 // To use lifetime annotations in function signatures, we need to declare the generic lifetime
 // parameter inside angle brackets between the function name and the parameter list, just as we
 // didi with generic type parameters.
-fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
-    if x.len() > y.len() { x } else { y }
-}
+// fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+//     if x.len() > y.len() { x } else { y }
+// }
 // Withot lifetime specifiers this will not even compile
 // fn longest_without_lifetime_annotations(x: &str, y: &str) -> &str {
 //     if x.len() > y.len() { x } else { y }
@@ -131,3 +133,19 @@ fn first_word(word: &str) -> &str {
 // 2. However, the second rule is not able to be applied as there are two input params for
 //    references so the compiler doesn't know which will be returned, and it will not compile if we
 //    don't specify the output lifetimes by ourselves.
+//    
+//
+//    Let's try to rewrite the function longest, now taking into consideration everything from the
+//    Chapter 10
+//
+// We can do it this way:
+// fn longest<'a, T: Display>(x: &'a str, y: &'a str, ann: T) -> &'a str
+// {
+//     "hi"
+// }
+//
+// Or this way:
+fn longest<'a, 'b, T>(x: &'a str, y: &'b str, ann: T) -> &'a str 
+where T: Display {
+    "hi"
+}
