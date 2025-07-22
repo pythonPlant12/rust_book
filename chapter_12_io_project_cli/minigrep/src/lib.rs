@@ -1,5 +1,5 @@
 use std::error::Error;
-use std::{env, fs};
+use std::{env, fs, process};
 
 pub struct Config {
     pub query: String,
@@ -10,24 +10,27 @@ pub struct Config {
 impl Config {
     // Instead of using new we'll use build, as many programmers don't expect the ::new() function
     // to fail
-    pub fn build(args: &[String]) -> Result<Config, &'static str> {
-        if args.len() < 3 {
-            return Err("not enough arguments");
-        }
+    pub fn build(mut args: impl Iterator<Item = String>) -> Result<Config, &'static str> {
+        args.next();
+        let search_string = args.next().unwrap_or_else(|| {
+            eprintln!("Search string is not defined in params");
+            process::exit(1)
+        });
 
-        let query = args[1].clone();
-        let file_path = args[2].clone();
+        let file_path = args.next().unwrap_or_else(|| {
+            eprintln!("File path is not defined in params");
+            process::exit(1)
+        });
 
-        let ignore_case = if args.len() >= 4 {
-            !args[3].is_empty()
-        } else {
-            env::var("IGNORE_CASE").is_ok()
+        let ignore_camel_case = match args.next() {
+            Some(_) => true,
+            None => env::var("IGNORE_CASE").is_ok(),
         };
 
         Ok(Config {
-            query,
+            query: search_string,
             file_path,
-            ignore_case,
+            ignore_case: ignore_camel_case,
         })
     }
 }
@@ -52,28 +55,37 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
 }
 
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
-    let mut results = Vec::new();
+    // let mut results = Vec::new();
 
-    for line in contents.lines() {
-        // Lines returns an iterator, we'll talk about iterators in
-        // Chapter 13
-        if line.contains(query) {
-            results.push(line);
-        }
-    }
-    results
+
+    contents.lines().filter(|line| {
+        line.contains(query)
+    }).collect()
+    // for line in contents.lines() {
+    //     // Lines returns an iterator, we'll talk about iterators in
+    //     // Chapter 13
+    //     if line.contains(query) {
+    //         results.push(line);
+    //     }
+    // }
+    // results
 }
 
 pub fn search_case_insensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     let query = query.to_lowercase();
-    let mut results = Vec::new();
+    // let mut results = Vec::new();
 
-    for line in contents.lines() {
-        if line.to_lowercase().contains(&query) {
-            results.push(line);
-        }
-    }
-    results
+    contents
+        .lines()
+        .filter(|line| line.to_lowercase().contains(&query))
+        .collect()
+
+    // for line in contents.lines() {
+    //     if line.to_lowercase().contains(&query) {
+    //         results.push(line);
+    //     }
+    // }
+    // results
 }
 
 #[cfg(test)]
