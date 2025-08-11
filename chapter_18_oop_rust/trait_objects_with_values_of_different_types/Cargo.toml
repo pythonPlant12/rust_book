@@ -1,0 +1,6 @@
+[package]
+name = "trait_objects_with_values_of_different_types"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
